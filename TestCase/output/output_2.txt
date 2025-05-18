@@ -1,0 +1,49 @@
+Input file: TestCase\input\input_2.txt
+==================================================
+
+Original grid:
+_, _, 1, _, _
+_, 2, 1, 1, _
+_, 1, _, 2, _
+_, 2, _, 1, _
+_, 1, _, 1, _
+
+
+SAT Solver Results:
+------------------------------
+Solving time: 0.0003 seconds
+Solution valid: Yes
+
+Solution grid:
+G, T, 1, G, G
+G, 2, 1, 1, T
+T, 1, G, 2, G
+G, 2, G, 1, T
+T, 1, G, 1, G
+
+
+DPLL Solver Results:
+------------------------------
+Solving time: 0.0025 seconds
+Solution valid: Yes
+
+Solution grid:
+G, T, 1, G, G
+G, 2, 1, 1, T
+T, 1, G, 2, G
+G, 2, G, 1, T
+T, 1, G, 1, G
+
+
+Brute Force Solver Results:
+------------------------------
+Solving time: 0.0378 seconds
+Solution valid: Yes
+
+Solution grid:
+G, T, 1, G, G
+G, 2, 1, 1, T
+T, 1, G, 2, G
+G, 2, G, 1, T
+T, 1, G, 1, G
+

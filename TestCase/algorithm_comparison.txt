@@ -1,0 +1,9 @@
+Algorithm Comparison Summary
+==================================================
+
+Test Case            SAT Time        DPLL Time       Brute Force Time     SAT Valid  DPLL Valid Brute Force Valid
+----------------------------------------------------------------------------------------------------
+Test Case 1               0.0004s         0.0001s         0.0011s              Yes        Yes        Yes            
+Test Case 2               0.0003s         0.0025s         0.0378s              Yes        Yes        Yes            
+Test Case 3               0.0008s         0.0006s         Timeout              Yes        Yes        No             
+Test Case 4               0.0022s         0.0139s         Timeout              Yes        Yes        No             

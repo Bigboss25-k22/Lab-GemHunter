@@ -1,0 +1,41 @@
+Input file: TestCase\input\input_1.txt
+==================================================
+
+Original grid:
+3, _, 2, _
+_, _, 2, _
+_, 3, 1, _
+
+
+SAT Solver Results:
+------------------------------
+Solving time: 0.0004 seconds
+Solution valid: Yes
+
+Solution grid:
+3, T, 2, G
+T, T, 2, G
+T, 3, 1, G
+
+
+DPLL Solver Results:
+------------------------------
+Solving time: 0.0001 seconds
+Solution valid: Yes
+
+Solution grid:
+3, T, 2, G
+T, T, 2, G
+T, 3, 1, G
+
+
+Brute Force Solver Results:
+------------------------------
+Solving time: 0.0011 seconds
+Solution valid: Yes
+
+Solution grid:
+3, T, 2, G
+T, T, 2, G
+T, 3, 1, G
+
